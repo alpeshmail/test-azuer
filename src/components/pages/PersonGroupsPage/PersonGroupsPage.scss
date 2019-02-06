@@ -1,0 +1,26 @@
+.base {
+
+}
+
+$menuHeight: 40px;
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  height: $menuHeight;
+  align-items: stretch;
+  background-color: teal;
+  padding: 0 10px;
+  .item {
+    line-height: $menuHeight;
+    padding: 0 10px;
+    color: #eee;
+  }
+  .selectedItem {
+    background: white;
+    color: #222;
+  }
+  .createGroup {
+    @extend .item;
+  }
+}

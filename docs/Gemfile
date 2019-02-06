@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+ruby RUBY_VERSION
+
+# need to run `bundle exec jekyll serve` to run locally
+gem "github-pages", group: :jekyll_plugins
